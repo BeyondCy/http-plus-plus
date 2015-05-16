@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript" src="ajax.js"></script>
+</head>
+<body>
+	<div style="margin-right:auto;margin-left:auto;width:700px">
+		
+		<img src="sunglasses.gif" /> <br /><br />
+		<div style="float:left">
+			File:<br />
+			<input type="text" id="file" style="border:1px solid #000" size="38">
+			
+			<a href="#" onclick="javascript:newTab();">&raquo;</a>
+			<br />
+			Content:<br />
+			<textarea id="content" rows="5" cols="30"></textarea>
+			
+		</div>
+		<div style="float:left;text-align:center;margin-top:50px;margin-left:50px">
+			<button onclick="javascript:ajaxGet();">GET</button><br />
+			<button onclick="javascript:ajaxHead();">HEAD</button><br />
+			<button onclick="javascript:ajaxPut();">PUT</button><br />
+			<button onclick="javascript:ajaxDelete();">DELETE</button>
+		</div>
+		<div style="clear:both">
+			<br />
+			<pre><span id="response"></span></pre>
+		</div>
+	</div>
+</body>
+</html>
