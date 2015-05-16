@@ -9,7 +9,6 @@
 
 /**
  * @brief The HttpResponseHead class
- * @author Sean Dillon
  * @remarks HttpReponseStrategy handler for HEAD requests
  */
 class HttpResponseHead : virtual public HttpResponseStrategy
