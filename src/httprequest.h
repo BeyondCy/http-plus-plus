@@ -14,7 +14,6 @@
 
 /**
  * @brief The HttpRequest class
- * @author Sean Dillon
  * @remarks Reads a client socket and parses the raw http data
  */
 class HttpRequest
