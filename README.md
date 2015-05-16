@@ -1,5 +1,5 @@
 # http++
-http++ is a fully featured web server written in C++. The Unix socket library is used to create a TCP server which binds to a port specified on the command line.  It uses the C pthread library so that each request is processed in a new thread, allowing it to be very responsive. These libraries should be abandoned for the C++11 standard library in the future.
+http++ is a fully featured web server written in C++. The Unix socket library is used to create a TCP server which binds to a port specified on the command line.  It uses the C pthread library so that each request is processed in a new thread, allowing it to be very responsive. There is no thread pool so it is probably easy to DoS, and shouldn't be used in production. These libraries should be abandoned for the C++11 standard library in the future, which will allow it to be cross-platform.
 
 The web server can handle GET, POST, HEAD, PUT, and DELETE http requests.  It sends all of the widely used http response status codes.  It also has the ability to transmit images and downloadable files.  It can handle interactions via telnet or any standard web browser.
 
