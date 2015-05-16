@@ -1,8 +1,5 @@
 ###################################
-# CS 436 Assignment 2 Makefile
-#
-# Sean Dillon
-# 
+# http++ makefile
 ###################################
 CC = g++		# use g++ for compiling c++ code or gcc for c code
 CFLAGS = -O3 -Wall	# compilation flags: -g for debugging. Change to -O or -O2 for optimized code.
