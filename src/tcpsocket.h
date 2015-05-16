@@ -8,7 +8,6 @@
 
 /**
  * @brief The TcpSocket class
- * @author Sean Dillon
  * @remarks Helps with reading and writing of a TCP socket
  */
 class TcpSocket
