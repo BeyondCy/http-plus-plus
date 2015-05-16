@@ -18,6 +18,6 @@ At the webroot (found in src/htdocs/) there is an index.html file that has some 
 
 
 ### Operation
-The web server itself is written almost completely in C++, except for one extern C function for use with the pthread library.  There is an abstract TcpServer class that HttpServer inherits, implementing its run() method to construct thread args and a pointer to the thread function.  
+The web server itself is written almost completely in C++, except for one extern C function for use with the pthread library.  There is an abstract TcpServer class that HttpServer inherits, implementing its run() method to construct thread arguments and a pointer to the thread function.  
 
-In the thread, there is an HttpRequest class that reads the TcpSocket client and parses the data sent.  This information is passed to a HttpResponse object, which uses the strategy pattern to handle the request.
+In the thread routine, there is an HttpRequest class that reads the TcpSocket client and parses the data sent.  This information is passed to a HttpResponse object, which uses the strategy pattern to handle the request.
