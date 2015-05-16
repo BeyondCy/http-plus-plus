@@ -6,7 +6,6 @@
 
 /**
  * @brief The HttpResponseStrategy class
- * @author Sean Dillon
  * @remarks Represents a way to handle different requests (GET, HEAD, etc.)
  * @abstract
  */
@@ -19,7 +18,6 @@ public:
 
 /**
  * @brief The HttpResponseUnimplemented class
- * @author Sean Dillon
  * @remarks HttpReponseStrategy handler for UNKNOWN requests
  */
 class HttpResponseUnimplemented : virtual public HttpResponseStrategy
