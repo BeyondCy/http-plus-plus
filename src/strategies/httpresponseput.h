@@ -7,7 +7,6 @@
 
 /**
  * @brief The HttpResponsePut class
- * @author Sean Dillon
  * @remarks HttpReponseStrategy handler for PUT requests
  */
 class HttpResponsePut : virtual public HttpResponseStrategy
