@@ -5,6 +5,8 @@ The web server can handle GET, POST, HEAD, PUT, and DELETE http requests.  It se
 
 The screenshot below shows the server being compiled from a Makefile.  The server is bound to the localhost on port 9001 and then handles a GET and PUT request from Google Chrome.
 
+![](http://i.imgur.com/y04ejxy.png)
+
 ### Usage
 ```
 root@server:~# git clone https://github.com/zerosum0x0/http-plus-plus.git
