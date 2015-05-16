@@ -10,7 +10,6 @@
 
 /**
  * @brief The HttpServer class
- * @author Sean Dillon
  * @remarks Overrides TcpServer::run() to spawn a new thread for each http request
  */
 class HttpServer : public TcpServer
