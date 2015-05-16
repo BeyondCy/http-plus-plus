@@ -8,7 +8,6 @@
 
 /**
  * @brief The HttpResponseGet class
- * @author Sean Dillon
  * @remarks HttpReponseStrategy handler for GET requests
  */
 class HttpResponseGet : virtual public HttpResponseHead
