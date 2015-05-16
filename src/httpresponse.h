@@ -7,7 +7,6 @@
 
 /**
  * @brief The HttpResponse class
- * @author Sean Dillon
  * @remarks Takes a parsed request and sends data back to its client
  */
 class HttpResponse
