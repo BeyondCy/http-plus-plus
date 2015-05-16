@@ -18,7 +18,6 @@
 
 /**
  * @brief The TcpServer class
- * @author Sean Dillon
  * @remarks Creates socket, binds to port, and listens to it
  * @abstract
  */
