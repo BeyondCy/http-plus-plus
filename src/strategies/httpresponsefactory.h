@@ -10,7 +10,6 @@
 
 /**
  * @brief The HttpResponseFactory class
- * @author Sean Dillon
  * @remarks Returns a strategy for handling an HttpRequest
  */
 class HttpResponseFactory
