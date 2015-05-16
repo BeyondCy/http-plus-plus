@@ -8,7 +8,6 @@
 
 /**
  * @brief The HttpResponseDelete class
- * @author Sean Dillon
  * @remarks HttpReponseStrategy handler for DELETE requests
  */
 class HttpResponseDelete : virtual public HttpResponseHead
