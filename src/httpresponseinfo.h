@@ -8,7 +8,6 @@
 
 /**
  * @brief The HttpResponseInfo class
- * @author Sean Dillon
  * @remarks Helps response texts to be constructed
  */
 class HttpResponseInfo
