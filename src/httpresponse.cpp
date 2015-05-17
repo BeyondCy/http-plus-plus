@@ -16,7 +16,7 @@ void HttpResponse::respond()
 {
     HttpResponseInfo info(this->_rootdir);
     info.addHeader("Date: " + HttpResponseInfo::currentTime());
-    info.addHeader("Server: CS436 HW2 (Linux)");
+    info.addHeader("Server: http++ (Linux)");
 
     this->_responseStrategy->response(this->_request, &info);
     printf("Thread: %d\tResponse: %d %s\n", (unsigned int)pthread_self(), info.code(), info.statusText().c_str());
