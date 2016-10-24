@@ -23,4 +23,4 @@ The web server itself is written almost completely in C++, except for one extern
 In the thread routine, there is an HttpRequest class that reads the TcpSocket client and parses the data sent.  This information is passed to a HttpResponse object, which uses the strategy pattern to handle the request.
 
 ### Security
-Do not use this in production. This hardcodes unauthorized operations such as PUT, and is vulnerable to other issues such as directory traversal. It is made available for educational benefit.
+Do not use this in production. This hardcodes unauthenticated operations such as PUT, and is vulnerable to other issues such as directory traversal. It is made available for educational benefit.
